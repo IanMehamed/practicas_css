@@ -1,0 +1,63 @@
+html{
+	font-family: Arial;
+	font-size: 14px;
+}	
+
+header,aside,nav,section {
+	background-color:red;
+	margin: 0.1%;
+}
+
+header {
+	text-align: center;
+}
+
+section {
+	float: left;
+  	width: 33.1%;
+	clear: none;
+	height: 120px;
+}
+
+article{
+	text-align: center;
+}
+
+aside {
+	float: right;
+  	width: 33.1%;
+	height: 120px;
+}
+
+nav {
+	float:left;
+	width: 33.1%;
+	height: 120px;
+}
+
+footer {
+	background-color: yellow;
+	text-align: center;
+}
+
+.header{
+	font-size: 46px;
+}
+
+.footer{
+	font-size: 14px;
+	clear:both;
+}
+
+.nav{
+	font-size: 12px;
+}
+
+.aside{
+	font-size:10px;
+}
+
+[class$="r"]{
+	background-color: fuchsia;
+}
+
